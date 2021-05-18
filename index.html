@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html manifest="cache.manifest"><head>
+<title>PS4 7.55 GoldHEN host MichaelCL13</title>
+<style>
+html, body {
+background-image: url('img.gif');
+background-attachment: fixed;
+background-size:100%;
+background-repeat:no-repeat;
+background-color: #24272b;
+color:green;
+margin-top: 0px;
+margin-left: 0px;
+margin-right: 0px;
+overflow: hidden;
+}
+h1 {
+text-shadow: 0.1em 0.1em 0.2em black;
+font-size:25px;
+text-align:center;
+color:#3B9AAF;
+}
+</style>
+<script>
+function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));document.getElementById="display:none";window.msgs.innerHTML="Instalando Cache en el navegador: " + Percent + "%";}
+function DisplayCacheProgress(){setTimeout(function(){window.msgs.innerHTML="Instalacion Completa del Cache ✔";},1000);setTimeout(function(){window.msgs.innerHTML="Ya puede Salir y desconectar la Internet y volver abrir el Navegador ...";},3000);}window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
+document.cookie = 'kex=1';
+</script>
+</head>
+<h1 id=msgs>PS4 7.55 GoldHEN host MichaelCL13</h1>
+<hr>
+<br>
+<h1 style="font-size:25px;text-align:center;">Experimentará problemas de memoria insuficientes en el navegador (debe insistir)</h1>
+<br>
+<br>
+<h1><i><div id=msgs>Pulse el Logo de PlayStation</h2></div>
+<br>
+<br>
+<br>
+<br>
+<tr align="right"><center>
+	<td><a href="goldhen.html#f=goldhen-755.js"><img src="1.1.png"></a></td>
+</tr>
+</div>
+<div style="position:fixed;left:0;bottom:-8px;width:100%;font-size:16px;">
+<hr>
+<h1><i><div id=msgs>PlayStation 4 Sistema <span id="PS4fw"></span><hr>
+</div>
+<script>
+UA = navigator.userAgent.substring(navigator.userAgent.indexOf('5.0 (') + 19, navigator.userAgent.indexOf(') Apple'));
+PS4fw.innerHTML=""+UA+" Detectado";
+
+var jailbreak_start_date = localStorage.getItem("jailbreak_start_date");
+if (jailbreak_start_date !== null) {
+  localStorage.removeItem("jailbreak_start_date");
+}
+</script>
+</body>
+</html>
