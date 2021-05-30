@@ -2,14 +2,17 @@ CACHE MANIFEST
 # v1.0
 
 blob.js
-goldhen.html
+dumper.js
+dumper.png
+payload.html
 goldhen755.js
 img.jpg
 1.1.png
 index.html
-int64.js
+webkit/int64.js
 jb.js
 mira.js
 netcat.js
-ps4.js
-utils.js
+webkit/ps4.js
+webkit/utils.js
+webkit/index.html
